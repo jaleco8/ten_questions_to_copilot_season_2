@@ -34,7 +34,7 @@ Ejecuta la aplicación y realiza una solicitud GET:
 
 📌 *Esta es la segunda entrega de "10 Preguntas a GitHub Copilot", donde exploramos cómo la IA puede transformar nuestras prácticas de desarrollo. ¡No te pierdas los siguientes episodios!*
 
-#APIs hashtag#Python hashtag#Flask hashtag#InteligenciaArtificial hashtag#DesarrolloDeSoftware hashtag#GitHubCopilot hashtag#GitHubLATAM
+#APIs #Python #Flask #InteligenciaArtificial #DesarrolloDeSoftware #GitHubCopilot #GitHubLATAM
 
 ---
 
