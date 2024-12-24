@@ -31,3 +31,15 @@ Ejecuta la aplicación y realiza una solicitud GET:
 1️⃣ Simplifica el desarrollo de endpoints básicos.  
 2️⃣ Reduce errores comunes en la configuración inicial de Flask.  
 3️⃣ Te permite enfocarte en la lógica de negocio y dejar que la IA haga el resto.
+
+📌 *Esta es la segunda entrega de "10 Preguntas a GitHub Copilot", donde exploramos cómo la IA puede transformar nuestras prácticas de desarrollo. ¡No te pierdas los siguientes episodios!*
+
+#APIs hashtag#Python hashtag#Flask hashtag#InteligenciaArtificial hashtag#DesarrolloDeSoftware hashtag#GitHubCopilot hashtag#GitHubLATAM
+
+---
+
+🔍 **Soy Jesús León**, apasionado por el liderazgo técnico, la innovación tecnológica y la inteligencia artificial. En mis publicaciones comparto estrategias prácticas para liderar equipos, adoptar tecnologías emergentes y alinear la tecnología con la estrategia empresarial.  
+
+💡 ¿Te interesan temas como #LiderazgoTecnológico, #InteligenciaArtificial o #ProyectosTecnológicos? Sigue mi perfil 👉 @jaleco8 para no perderte contenido valioso sobre IA, desarrollo de software y gestión estratégica.
+
+> Si consideras útil esta información, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias 🙌!
