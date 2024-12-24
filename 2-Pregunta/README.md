@@ -1,50 +1,33 @@
-# API Flask
+🚀 **10 Preguntas a GitHub Copilot: Desarrollo de APIs Sencillas con Flask** 💡
 
-Este proyecto es una API simple creada con Flask que devuelve un saludo.
+🔍 **Pregunta 2**:  
+*"Escribe una API REST básica usando Flask (Python) que tenga un solo endpoint `/saludo`. Este endpoint debe aceptar un parámetro `nombre` por GET y devolver un JSON con el mensaje 'Hola, [nombre]!'."*
 
-## Requisitos
+[Ver Video](https://youtu.be/4v1z7k34AY8)
 
-- Python 3.x
-- Flask
+📜 **Por qué lo hacemos**:  
+El objetivo es evaluar cómo la inteligencia artificial puede ayudarnos a construir aplicaciones web simples utilizando frameworks populares como Flask. Esto es especialmente útil para desarrolladores que buscan optimizar el tiempo y simplificar tareas repetitivas.
 
-## Instalación
+💻 **Código Generado por GitHub Copilot**:  
+```python
+from flask import Flask, request, jsonify
 
-1. Clona este repositorio:
-    ```sh
-    git clone git@github.com:jaleco8/ten_questions_to_copilot_season_2.git
-    cd 2-Pregunta
-    ```
+app = Flask(__name__)
 
-2. Crea un entorno virtual (opcional pero recomendado):
-    ```sh
-    python -m venv venv
-    source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
-    ```
+@app.route('/saludo', methods=['GET'])
+def saludo():
+    nombre = request.args.get('nombre', 'Amigo')
+    return jsonify({"mensaje": f"Hola, {nombre}!"})
 
-3. Instala las dependencias:
-    ```sh
-    pip install Flask
-    ```
+if __name__ == '__main__':
+    app.run(debug=True)
+```
 
-## Ejecución
+📡 **Prueba la API**:  
+Ejecuta la aplicación y realiza una solicitud GET:  
+`curl http://127.0.0.1:5000/saludo?nombre=Juan`
 
-Para ejecutar el script [api_flask.py](http://_vscodecontentref_/0), usa el siguiente comando:
-  ```sh
-  python 2-Pregunta/api_flask.py
-  ```
-
-La API estará disponible en http://127.0.0.1:5000/saludo.
-
-## Uso
-
-Para obtener un saludo, realiza una solicitud GET a la ruta /saludo con un parámetro opcional nombre. Ejemplo:
-
-  ```curl http://127.0.0.1:5000/saludo?nombre=Juan```
-
-La respuesta será un JSON con el mensaje de saludo.
-
-  ```
-  {
-      "mensaje": "Hola Juan!"
-  }
-  ```
+📈 **Beneficios**:  
+1️⃣ Simplifica el desarrollo de endpoints básicos.  
+2️⃣ Reduce errores comunes en la configuración inicial de Flask.  
+3️⃣ Te permite enfocarte en la lógica de negocio y dejar que la IA haga el resto.
