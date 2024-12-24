@@ -43,6 +43,8 @@ Para obtener un saludo, realiza una solicitud GET a la ruta /saludo con un pará
 
 La respuesta será un JSON con el mensaje de saludo.
 
-  ```{
+  ```
+  {
       "mensaje": "Hola Juan!"
-  }```
+  }
+  ```
