@@ -13,3 +13,8 @@
 ### [**Pregunta 03**](./3-Pregunta/) Manipulación del DOM con JavaScript.
 
 [Ir a la Pregunta 03](./3-Pregunta/) - [Código en HTML](./3-Pregunta/index.html)
+
+
+### [**Pregunta 04**](./4-Pregunta/) Automatización de Tareas con Bash.
+
+[Ir a la Pregunta 04](./4-Pregunta/) - [Código en Bash](./4-Pregunta/copiar_txt.sh)
