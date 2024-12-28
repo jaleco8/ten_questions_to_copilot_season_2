@@ -18,3 +18,7 @@
 ### [**Pregunta 04**](./4-Pregunta/) Automatización de Tareas con Bash.
 
 [Ir a la Pregunta 04](./4-Pregunta/) - [Código en Bash](./4-Pregunta/copiar_txt.sh)
+
+### [**Pregunta 05**](./5-Pregunta/) Integración de Librerías con Node.js.
+
+[Ir a la Pregunta 05](./5-Pregunta/) - [Código en JavaScript](./5-Pregunta/app.js)
